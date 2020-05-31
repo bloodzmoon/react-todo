@@ -1,10 +1,19 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 import uuid from "react-uuid";
 
 export const TodoContext = createContext([]);
 
 export const TodoProvider = ({ children }) => {
   const [todos, setTodos] = useState([]);
+
+  useEffect(() => {
+    const data = window.localStorage.getItem("react-todo");
+    data ? setTodos(JSON.parse(data)) : setTodos([]);
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem("react-todo", JSON.stringify(todos));
+  }, [todos]);
 
   const toggleTodo = (id) =>
     setTodos(
