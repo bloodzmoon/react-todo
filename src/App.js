@@ -5,7 +5,7 @@ import { routes } from "./routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-todo">
       <Nav />
       <Switch>
         {routes.map((route) => (
