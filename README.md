@@ -6,8 +6,8 @@ Deploy on [Github Page](https://bloodzmoon.github.io/react-todo/)
 
 ## Differrent languages
 
-[Angular Todo](https://bloodzmoon.github.io/angular-todo/)  
-[Vue Todo](https://bloodzmoon.github.io/vue-todo/)
+- [Angular](https://bloodzmoon.github.io/angular-todo/)
+- [Vue](https://bloodzmoon.github.io/vue-todo/)
 
 ## Credit
 
