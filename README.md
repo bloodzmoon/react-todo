@@ -2,12 +2,12 @@
 
 ![Cover](./git-cover.png)
 
-Deploy on [Github Page](https://bloodzmoon.github.io/react-todo/)
+Deploy [here](https://bloodzmoon.github.io/react-todo/) with Github Page
 
 ## Differrent languages
 
-- [Angular](https://bloodzmoon.github.io/angular-todo/)
-- [Vue](https://bloodzmoon.github.io/vue-todo/)
+- [Angular](https://github.com/bloodzmoon/angular-todo)
+- [Vue](https://github.com/bloodzmoon/vue-todo)
 
 ## Credit
 
