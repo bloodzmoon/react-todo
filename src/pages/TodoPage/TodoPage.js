@@ -27,13 +27,7 @@ export const TodoPage = () => {
         />
         <Button type="submit">ADD</Button>
       </form>
-      <TodoList
-        todos={[
-          { task: "Play Game", done: false },
-          { task: "Watch TV", done: true },
-          { task: " Sleeping", done: false },
-        ]}
-      />
+      <TodoList />
     </div>
   );
 };
